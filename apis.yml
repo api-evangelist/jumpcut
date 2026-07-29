@@ -1,8 +1,27 @@
 aid: jumpcut
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jumpcut.png
 name: Jumpcut
-description: Jumpcut is a company surfaced as a portfolio company of 500-global, canaan-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Jumpcut (Jumpcut, Inc.) is a Y Combinator-backed, remote-first digital-media
+  company founded in 2014 in Los Angeles that produces online courses about entrepreneurship
+  and content creation — teaching viral YouTube growth, audience building, and launching
+  digital products with marketing automation. It reached the API Evangelist network as a
+  portfolio company of 500 Global and Canaan Partners. Jumpcut is a consumer education/creator
+  business, not an API producer: it publishes no developer platform, API reference, or machine-readable
+  API specification, so there is no API surface to onboard here. As of this profile its primary
+  domain jumpcut.com does not resolve (registered via Namecheap through 2032 but serving no
+  DNS/website), and customers reported losing account access in late 2025, indicating the
+  product has wound down. Retained as an identity-only network stub.'
 url: https://raw.githubusercontent.com/api-evangelist/jumpcut/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+x-website-status: unresolved
 tags:
 - Company
+- Education
+- Online Courses
+- Entrepreneurship
+- EdTech
+- Creator Economy
+- Video
+- Y Combinator
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,8 @@ maintainers:
 common:
 - type: Website
   url: https://jumpcut.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
